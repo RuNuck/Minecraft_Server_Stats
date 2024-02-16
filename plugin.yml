@@ -1,0 +1,11 @@
+name: MyPlugin
+main: org.test.test.MyPlugin
+version: 1.0
+commands:
+  serverstats:
+    description: Displays server stats
+api-version: 1.13
+permissions:
+  serverstats.view:
+    description: Allows viewing of server stats
+    default: op
