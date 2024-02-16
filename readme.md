@@ -1,6 +1,6 @@
 Server Statistics Application
 This application is designed to run in a Minecraft server environment. It offers a simple way for permitted users to view certain server statistics by executing a command.
-Main Features
+Features
 View Online Players: You can see the number of online players.
 View Server RAM Usage: Get information about the server's total and currently used memory.
 Commands
@@ -14,7 +14,7 @@ To use this application, you need to install it on your Minecraft server. Please
 Code Overview
 The important classes in this application are:
 ServerStatsCommand: This is the main class implementing the CommandExecutor interface. It defines the /serverstats command.
-plugin.yml:
+Here is a general overview of our plugin.yml file:
 
 name: MyPlugin
 main: org.test.test.MyPlugin
